@@ -1,0 +1,41 @@
+.card-search
+ {
+  /* background-color: pink; */
+  display: flex;
+  height: 200px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.search-bar
+{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  background-color:white;
+
+}
+
+.search__input
+{
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  border-bottom: 1px solid;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 13px;
+}
+
+.search__button
+{
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  font-size: 1.4rem;
+  display: flex;
+}
