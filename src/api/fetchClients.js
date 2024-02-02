@@ -6,7 +6,7 @@ export const fetchClients = async (query) => {
   const data = await response.json();
   
   
-  console.log(response);
+  // console.log(response);
 
   return data;
   
