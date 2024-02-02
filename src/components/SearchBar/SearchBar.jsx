@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoSearchSharp } from 'react-icons/io5';
 import './SearchBar.css';
-import { fetchClients } from '../../../api/fetchClients';
+import { fetchClients } from '../../api/fetchClients';
 
 
 
