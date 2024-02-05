@@ -1,22 +1,37 @@
 .card-search
  {
-  background-color: pink;
+  /* background-color: pink; */
   display: flex;
   height: 200px;
   align-items: center;
   position: relative;
   justify-content: center;
+  
 }
 
 .search-bar
 {
   width: 100%;
-  max-width: 500px;
+  max-width: 260px;
   display: flex;
   justify-content: space-between;
   gap: 13px;
-  background-color:white;
+  background-color:#e8e8e8;
+  
 
+}
+.search__input::placeholder
+{
+  color: #90caf9;
+  font-size: 1.4rem;
+  
+}
+
+.search__input:focus::-webkit-input-placeholder {
+  
+  transition-delay: 0.5s;
+  transition-property: color;
+  color: transparent;
 }
 
 .search__input
@@ -25,9 +40,13 @@
   outline: none;
   flex-grow: 1;
   border-bottom: 1px solid;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  padding: 13px;
+  /* padding: 13px; */
+  text-align: center;
+  background-color:#e8e8e8;
+  color: #90caf9;
+  
 }
 
 .search__button

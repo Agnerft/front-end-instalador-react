@@ -1,36 +1,48 @@
 .section-card-cliente
 {
   display: flex;
-  height: 200px;
+  /* height: 200px; */
   align-items: center;
-  position: relative;
+  /* position: relative; */
   justify-content: center;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   
+}
+
+
+.text-cliente
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 40px;
 }
 
 .card-cliente
 {
-  background-color: green;
+  
   width: 100%;
   max-width: 500px;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  
+
 }
 
 p
 {
- display: inline;
- /* padding: 10px; */
- background-color: red;
- font-size: 1.1rem;
+ 
+ font-size: 1.5rem;
 }
 
-/* Note that you only needs to edit the config to customize the button! */
-.button__copy
+button
 {
   background: none;
   border: none;
+  font-size: 2.0rem;
 }
+
+.card-cliente-teste
+{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+

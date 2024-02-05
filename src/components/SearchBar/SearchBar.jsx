@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-// import { IoSearchSharp } from 'react-icons/io5';
+import { IoSearchSharp } from 'react-icons/io5';
 import './SearchBar.css';
 import { fetchClients } from '../../api/fetchClients';
 import AppContext from '../../context/AppContext';
@@ -36,9 +36,9 @@ function SearchBar() {
           required
         />
 
-        {/* <button type="submit" className="search__button">
+        <button type="submit" className="search__button">
           <IoSearchSharp />
-        </button> */}
+        </button>
       </form>
     </div>
   );
